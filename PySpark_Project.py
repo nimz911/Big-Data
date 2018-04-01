@@ -15,8 +15,6 @@ sc = SparkContext.getOrCreate()
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
 
-# In Jupyter you have to stop the current context first
-sc.stop()
 
 # Create new config
 conf = (SparkConf()
